@@ -2,3 +2,4 @@ language: csharp
 solution: solution-name.sln
 script:
   - ./build.sh
+  -./docker-compose up dev
